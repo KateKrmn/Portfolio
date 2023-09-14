@@ -23,21 +23,24 @@ nav{
     color: #E74646;
     text-transform: uppercase;
 }
-section.about {
+section.home {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(232, 232, 233, 0.801) 0%, rgba(232, 232, 233, 0) 50%);
 }
 .text-and-button {
     flex: 1;
     padding: 20px 50px; 
     margin: 20px 30px;
 }
-p{
+section.home p{
     font-size: 35px;
 }
 h1{
     font-size: 50px;
+    color: #E74646;
 }
 .image {
     flex: 1;
@@ -61,3 +64,26 @@ button{
 button:hover{
     background-color: #FA9884;
 }
+.about{
+    padding-top: 30px;
+}
+section.about{
+    background: linear-gradient(to bottom, rgba(232, 232, 233, 0) 0%, rgba(232, 232, 233, 0.801) 50%);
+}
+.skill img{
+    width: 50px;
+}
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill p{
+    font-size: 10px;
+    text-align: center;
+}
+section.skills{
+    margin-top: -20px;
+    background: linear-gradient(to bottom, rgba(232, 232, 233, 0.801) 0%, rgba(232, 232, 233, 0) 50%);
+}
+  
